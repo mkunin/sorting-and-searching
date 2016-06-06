@@ -64,8 +64,8 @@ public class RadixSort {
 	// Asks the user to enter a series of non-negative integers.
 	public static int[] arrayInit() {
 		Scanner input = new Scanner(System.in);
-        System.out.println("\nTest for Radix Sort (also called Bucket Sort):\n");
-        System.out.println("How many non-negative integers would you like to enter?");
+		System.out.println("\nTest for Radix Sort (also called Bucket Sort):\n");
+		System.out.println("How many non-negative integers would you like to enter?");
 		int userInput = input.nextInt();
 		int[] intArray = new int[userInput];
 		if (userInput != 1) {
@@ -73,10 +73,10 @@ public class RadixSort {
 		} else {
 			System.out.println("\nGreat! Please type out 1 non-negative integer:");
 		}
-        for (int i = 0; i < userInput; i++) {
-        	intArray[i] = input.nextInt();
-        }
-        System.out.print("\nResult: ");
+		for (int i = 0; i < userInput; i++) {
+			intArray[i] = input.nextInt();
+		}
+		System.out.print("\nResult: ");
 		return intArray;
 	}
 	
