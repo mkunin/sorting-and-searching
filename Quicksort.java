@@ -49,7 +49,7 @@ public class Quicksort {
 	
 	// Swaps two elements in an array.
 	public static void swap(int[] array, int a, int b) {
-		if (a >= 0 & b >= 0 && a <= array.length && b <= array.length && a != b) {
+		if (a >= 0 & b >= 0 && a <= array.length-1 && b <= array.length-1 && a != b) {
 			int temp = array[a];
 			array[a] = array[b];
 			array[b] = temp;
